@@ -108,8 +108,3 @@ exports.delete = async(rl) => {
 
     rl.log(`  ${name} deleted from DB`);
 }
-
-exports.play = async(rl) => {
-
-    rl.questionP("Soy el boton jugar");
-}
